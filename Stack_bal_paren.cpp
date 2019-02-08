@@ -16,11 +16,10 @@ bool balanced(string s){
 
     stack <char> st;
 
-    int n = s.length();
-
-    for(int i = 0;i < n;i++){
+    for(int i = 0;i < s.length();i++){
         if(s[i] == '[' || s[i] == '(' || s[i] == '{') {
             st.push(s[i]);
+            continue;
         }else if(s[i] == ']' || s[i] == ')' || s[i] == '}'){
             if(st.empty() || !Arepair(st.top(),s[i]))
                 return false;
@@ -42,7 +41,7 @@ int main(){
     }else{
         "Not Balanced";
     }
-
+    cout<<endl;
     system("pause");
 
     return 0;
