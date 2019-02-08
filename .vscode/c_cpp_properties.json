@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Win64",
+            "includePath": [
+                "usr\\include",
+                "usr\\local\\inclue",
+                "${workspaceFolder}/a.exe"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}",
+                    "C:\\MinGW\\lib\\gcc\\mingw32\\8.2.0\\C:\\MinGW\\lib\\gcc\\mingw32\\8.2.0\\include\\c++"
+                    
+                ]
+            }
+        }
+    ],
+    "version": 4
+}
