@@ -36,12 +36,13 @@ int main(){
     cout<<"Enter an expression: ";
     cin>>s;
     
-    if(balanced(s)){
+    if(balanced(s)== true){
         cout<<"Balanced";
     }else{
-        "Not Balanced";
+        cout<<"Not Balanced";
     }
     cout<<endl;
+
     system("pause");
 
     return 0;
