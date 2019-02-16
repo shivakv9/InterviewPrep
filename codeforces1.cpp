@@ -11,6 +11,7 @@ void Array_Man(int n,vector<vector<int>> Q){
             cout << Q[i][j] << " "; 
         cout << endl; 
    
+   
 }
 int main(){
     
