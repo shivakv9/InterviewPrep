@@ -57,8 +57,10 @@ Node* insert_level_order(vector<int> ar,Node* root,int i,int n){
 
 int main(){
 
-    vector<int> arr = {1, 2, 3, 4, 5, 6, 6, 6, 6};
+    vector<int> arr = {45,55,89,98,100,120,130,140,150};
     Node* root = insert_level_order(arr,root,0,arr.size());
+
+    
     cout<<"Inorder Traversal: ";
     inorder_traversal(root);
     cout<<endl;
