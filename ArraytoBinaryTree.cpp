@@ -57,7 +57,7 @@ Node* insert_level_order(vector<int> ar,Node* root,int i,int n){
 
 int main(){
 
-    vector<int> arr = {45,55,89,98,100,120,130,140};
+    vector<int> arr = {45,55,89,98,100,120,130,140,150};
     Node* root = insert_level_order(arr,root,0,arr.size());
 
     
